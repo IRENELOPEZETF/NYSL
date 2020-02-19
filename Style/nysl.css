@@ -1,0 +1,511 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: url(../Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+body {
+    background-image: url(../Images/background_NYSL.jpg);
+    color: white;
+    font-family: "Courier New Light", "Verdana", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: fantasy, "Arial", sans-serif;
+    text-decoration-color: whitesmoke;
+    color: #033042;
+    text-shadow: 3px 2px rgb(158, 253, 63);
+    text-align: left;
+    font-size: 70px;
+    margin: 0px 925px 10px 10px;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+img {
+    position: absolute;
+    top: 270px;
+    left: 234px;
+    height: 190px;
+    border-color: #033949;  
+    -webkit-animation: 30s rotate linear infinite;
+    animation: 30s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+h2 {
+    background-color: rgb(158, 253, 63);
+    color: #033949;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #033042;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    font-size: 14px;
+    font-family: fantasy;
+    padding: 8px;
+    position: absolute;
+    top: 282px;
+    right: -5px;
+}
+
+.current {
+    background: rgb(158, 253, 63);
+    color: white;
+    border: #033042;
+    font-weight: bold;
+}
+
+a:link {
+    background-color: whitesmoke;
+    border: 2px solid #033042;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: #033042;
+}
+
+main { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    background-color: rgba(3, 48, 66, 0.7);
+    margin: 40px 180px 40px 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.h3 {
+    font-family: 'Courier New Light', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div {
+    width: 400px;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+
+p {
+    
+    font-size: 18px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+a.email {
+    color: white;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-left: -25px;
+}
+
+.rules {
+    background-color: rgba(3, 48, 66, 0.7);
+    margin: 40px 180px 60px 180px;
+    width: 792px;
+    padding: 0px 50px 40px 60px;
+    font-family: "Tw Cen MT";
+}
+
+.gameinfo {
+    background-color: rgba(3, 48, 66, 0.7);
+    margin: 40px 180px 60px 180px;
+    width: 792px;
+    padding: 20px 50px 40px 60px;
+}
+
+h4 {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+ul {
+    font-size: 16px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    list-style-type: square;
+    font-weight: normal;
+}
+
+.letterlist {
+    list-style-type: lower-alpha;
+}
+
+li {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.numberlist {
+    padding: 10px 20px 15px 20px;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    font-family: "Courier New Light";
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    padding: 10px 0px 10px 8px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+td {
+    padding: 10px 0px 8px 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(173, 255, 47, 0.2);
+}
+
+th.dates {
+    width: 160px;
+}
+
+th.teams {
+    width: 180px;
+}
+
+th.loc {
+    width: 270px;
+}
+th.time { 
+    width: 160px;
+}
+
+table.location {
+    margin-bottom: 50px;
+}  
+   
+iframe {
+    border: 10px solid #033042; 
+    border-radius: 25px;
+    height: 200px;
+    width: 371px;  
+}
+
+.form {
+    width: 760px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+input {
+    background-color: rgb(158, 253, 63, 0.6);
+    color: black;
+    border-color: whitesmoke;
+    border-radius: 3px;
+    width: 220px;
+  }
+    
+.street {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.st {
+    width: 600px;
+}
+
+.city {
+    width: 382px;
+    } 
+
+.birth-gender {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.gender {
+    display: flex;
+    width: 50%;
+    padding-top: 1px;
+}   
+
+.checkboxStyle {
+    display: inline-block;
+}
+
+.boldtext {
+    font-weight: bold;
+    display: flex;
+    width: 900px;
+    margin-bottom: -30px;
+    margin-left: -5px;
+}
+
+.grade {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.cB {
+    display: block;
+    padding-left: 15px;
+    text-indent: -50px;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+input.checkbox {
+    width: 10px;
+    height: 10px;
+    vertical-align: bottom;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    color: black;
+    border-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+select {
+    background-color: rgb(158, 253, 63, 0.6);
+    color: black;
+    border-color: whitesmoke;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding-top: -80px;
+}
+
+.first {
+    padding-right: 80px;
+}
+.question {
+    height: 106px;
+}
+
+.positions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 120px;  
+    width: 100%;
+}
+
+.wishPositions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+   
+    padding: 0px;
+}
+
+input.checkboxPosition {
+    width: 10px;
+    height: 10px;
+    position: bottom;
+    top: 4px;
+    display: block;
+    padding-right: 0px;
+    padding-top: 120px;
+}
+
+.cBp {
+    display: inline-block;
+    padding-left: 15px;
+    text-indent: 8px;
+    position: top;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.pg {
+    width: 625px;
+}
+
+.positions1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.positions2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.uniform {
+    width: 100%;
+    padding-top: 10px;     
+}
+
+.iHaveUniform {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.jersey-shorts {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.jersey1 {
+    margin-top: -10px;
+}
+
+.jersey2 {
+    margin-top: -10px;
+}
+
+.shorts1 {
+    margin-top: -10px;
+}
+
+.shorts2 {
+    margin-top: -10px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.submit {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    color: #033949;
+    font-weight: bold;
+}
+
+p.bold {
+    margin-bottom: 10px;
+}
+
+.permission {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.permissionText {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+p.permissionText {
+    font-size: 12px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-right: 80px;
+    text-align: justify;
+    width: 98%;
+}
+
+input.parent {
+    width: 500px;
+}
+
+.registerinfo {
+background-color: rgba(3, 48, 66, 0.7);
+margin: 40px 180px 60px 180px;
+width: 792px;
+padding: 20px 50px 40px 60px;
+}

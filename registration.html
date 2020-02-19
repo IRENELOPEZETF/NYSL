@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> NYSL/Registration form</title>
+    <link rel="stylesheet" href="./Style/nysl.css">
+</head>
+
+<body>
+    <header>
+        <h1>Northside Youth Soccer League</h1>
+        <img src="./Images/nysl_logo.png" alt="Logo NYSL">
+    </header>
+
+    <h2>REGISTRATION FORM</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="rules.html">Rules</a>
+        <a href="gameinfo.html">Game Info</a>
+        <a class="current" href="#">Registration</a>
+    </nav>
+
+    
+
+    <div class="gameinfo">
+        <h3>Registration Form</h3>
+
+        <form id="registration" name="registration" action="show_data.html" method="GET" autocomplete="on" class="form">
+
+            <div class="personal">
+
+                <label for="first name">Player's First Name</label>
+                <input type="text" name="Name" required>
+
+                <label for="last name">Last Name</label>
+                <input type="text" name="Surname" required>
+
+            </div>
+
+            <div class="street">
+                <label for="street_address">Street Address</label>
+                <input class="st" type="text" required name="Address">
+            </div>
+
+            <div class="personal">
+                <label for="city">City</label>
+                <input class="city" type="text" name="city">
+                <label for="zip code">Zip Code</label>
+                <input type="number" name="zip_code" id="Zip">
+            </div>
+
+            <div class="birth-gender">
+
+                <div class="birthday">
+                    <label for="birth_date">Birth Date</label>
+                    <input class="birthday" type="date" name="Birthday" required>
+                </div>
+
+                <div class="gender">
+                    <legend class="gender">Gender:</legend>
+
+                    <input type="checkbox" name="Gender" id="female" value="female">
+                    <label class="cB" for="female">Female</label>
+
+                    <input type="checkbox" name="Gender" id="male" value="male">
+                    <label class="cB" for="male">Male</label>
+                </div>
+
+            </div>
+
+            <div class="grade">
+                <label>Grade: </label>
+                <input class="checkbox" type="checkbox" name="Grade" value="Pre-School">
+                <label class="cB">Pre-School</label>
+                <input class="checkbox" class="checkbox" type="checkbox" name="Grade" value="1st">
+                <label class="cB">1st</label>
+                <input class="checkbox" type="checkbox" name="Grade" value="2nd">
+                <label class="cB">2nd</label>
+                <input class="checkbox" type="checkbox" name="Grade" value="3rd">
+                <label class="cB">3rd</label>
+                <input class="checkbox" type="checkbox" name="Grade" value="4th">
+                <label class="cB">4th</label>
+                <input class="checkbox" type="checkbox" name="Grade" value="5th">
+                <label class="cB">5th</label>
+            </div>
+
+            <div class="street">
+                <label for="parent_guardian">Parent/Guardian</label>
+                <input class="st" type="text" name="Parent" required>
+            </div>
+
+            <div class="personal">
+                <label for="tel">Contact Phone</label>
+                <input type="tel" id="phone" name="Phone" pattern="[0-9]{9}" required>
+                <label for="email">Contact Email</label>
+                <input id="emailAddress" type="email">
+            </div>
+
+            <div class="boldtext">
+                <p class=>Which elementary schools do you live near?</p>
+            </div>
+
+            <div class="school">
+
+                <div class="first">
+                    <label for="first_closest_school">First Closest School
+                        <select name="School">
+                            <option value="AJ Katzenmaier" selected="">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="second">
+                    <label for="second_closest_school">Second Closest School
+                        <select name="Second-School">
+                            <option value="AJ Katzenmaier" selected="">AJ Katzenmaier</option>
+                            <option value="Greenbay" selected="">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="boldtext">
+                    <p>What position(s) do you normally play? (check all that apply)</p>
+                </div>
+
+                <div class="positions">
+                    <div class="positions1">
+
+                        <input class="checkboxPosition" type="checkbox" name="Position" value="Forward">
+                        <label class="cBp">Forward</label>
+
+                        <input class="checkboxPosition" type="checkbox" name="Position" value="Defense">
+                        <label class="cBp">Defense</label>
+                    </div>
+
+                    <div class="positions2">
+
+                        <input class="checkboxPosition" type="checkbox" name="Position" value="Midfield">
+                        <label class="cBp">Midfield</label>
+
+                        <input class="checkboxPosition" type="checkbox" name="Position" value="Goalkeeper">
+                        <label class="cBp">Goalkeeper</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="boldtext">
+                    <p>What position(s) do you want to play? (check all that apply)</p>
+                </div>
+
+                <div class="wishPositions">
+                    <div class="positions1">
+
+                        <input class="checkboxPosition" type="checkbox" name="Wish" value="Forward">
+                        <label class="cBp">Forward</label>
+
+                        <input class="checkboxPosition" type="checkbox" name="Wish" value="Defense">
+                        <label class="cBp">Defense</label>
+                    </div>
+
+                    <div class="positions2">
+
+                        <input class="checkboxPosition" type="checkbox" name="Wish" value="Midfield">
+                        <label class="cBp">Midfield</label>
+
+                        <input class="checkboxPosition" type="checkbox" name="Wish" value="Goalkeeper">
+                        <label class="cBp">Goalkeeper</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uniform">
+                <div class="iHaveUniform">
+                    <label class="boldtext">
+                        <input class="checkbox" type="checkbox" name="Uniform" value="I Have uniform">
+                        Allready have a uniform</label>
+                </div>
+                <div class="jersey-shorts">
+                    <label class="boldtext">Jersey Size:</label>
+                    <label class="boldtext">Shorts Size:</label>
+                </div>
+                <div class="jersey-shorts">
+                    <div class="jersey1">
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Youth Small">Youth Small
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Youth Medium">Youth Medium
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Youth Large">Youth Large
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Small">Small
+                        </label>
+                    </div>
+                    <div class="jersey2">
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Medium">Medium
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Large">Large
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Jersey" value="Extra-Large">Extra-Large
+                        </label>
+                    </div>
+                    <div class="shorts1">
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Youth Small">Youth Small
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="shorts size" value="Youth Medium">Youth Medium
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Youth Large">Youth Large
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Small">Small
+                        </label>
+                    </div>
+                    <div class="shorts2">
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Medium">Medium
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Large">Large
+                        </label>
+
+                        <label class="cB">
+                            <input class="checkbox" type="checkbox" name="Short" value="Extra-Large">Extra-Large
+                        </label>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="permission">
+                <p class="boldtext">Permission to Play</p>
+                <div class="permissionText">
+                    <p class="permissionText">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                        the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical
+                        injury associated with soccer and in consideration for the “League” accepting the registrant for its
+                        soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and
+                        games, against any claim by or on behalf of the registrant as a result of the registrant’s
+                        participation in the program and/or being transported to or from NYSL sponsored activities, which
+                        transportation.</p>
+                    <p class="permissionText">By signing below, I hereby agree and authorize the above. In addition, by
+                        signing below, I also
+                        acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                </div>
+                <div class="personal">
+                    <label for="parent_guardian_signature">Parent/Guardian full Name:</label>
+                    <input class="parent" type="text" name="Signed" required>
+                </div>
+                <div class="personal">
+                    <label for="registration_date">Date:</label>
+                    <input type="date" name="Date" required>
+                </div>
+
+                <div class="send">
+                    <input class="submit" type="submit" value="Send">
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

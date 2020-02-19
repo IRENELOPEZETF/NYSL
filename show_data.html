@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+<link rel="stylesheet" href="./Style/nysl.css">
+</head>
+<body>
+    <header>
+        <h1>Northside Youth Soccer League</h1>
+        <img src="./Images/nysl_logo.png" alt="Logo NYSL">
+    </header>
+
+    <h2>YOU ARE REGISTERED!</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="nysl_about.html">About</a>
+        <a href="nysl_contact.html">Contact</a>
+        <a href="rules.html">Rules</a>
+        <a class="current" href="#">Game Info</a>
+        <a href="registration.html">Registration</a>
+    </nav>
+
+<p align=center>&nbsp;</p>
+
+<div class="registerinfo">
+  <h3 align=center>
+    <font size="+1">The following information has been sent as your
+      feedback:</font>
+  </h3>
+<table>
+  <tr>
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+
+
+</table>
+</div>
+</body>
+</html>
+

@@ -44,7 +44,7 @@ img {
     top: 270px;
     left: 234px;
     height: 190px;
-    border-color: #033949;  
+    border-color: #033949;
     -webkit-animation: 30s rotate linear infinite;
     animation: 30s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
@@ -94,7 +94,7 @@ a:-webkit-any-link {
     color: #033042;
 }
 
-main { 
+main {
     display: flex;
     justify-content: space-around;
 }
@@ -132,11 +132,11 @@ h4 {
     font-size: 30px;
     text-align: start;
     margin-top: 30px;
-    margin-left: 30px; 
+    margin-left: 30px;
 }
 
 p {
-    
+
     font-size: 18px;
     color: white;
     margin: 20px;
@@ -184,6 +184,7 @@ h6 {
     font-size: 16px;
     padding-top: 10px;
 }
+
 ul {
     font-size: 16px;
     padding-left: 40px;
@@ -243,19 +244,20 @@ th.teams {
 th.loc {
     width: 270px;
 }
-th.time { 
+
+th.time {
     width: 160px;
 }
 
 table.location {
     margin-bottom: 50px;
-}  
-   
+}
+
 iframe {
-    border: 10px solid #033042; 
+    border: 10px solid #033042;
     border-radius: 25px;
     height: 200px;
-    width: 371px;  
+    width: 371px;
 }
 
 .form {
@@ -276,8 +278,8 @@ input {
     border-color: whitesmoke;
     border-radius: 3px;
     width: 220px;
-  }
-    
+}
+
 .street {
     display: flex;
     flex-direction: row;
@@ -292,7 +294,7 @@ input {
 
 .city {
     width: 382px;
-    } 
+}
 
 .birth-gender {
     display: flex;
@@ -306,7 +308,7 @@ input {
     display: flex;
     width: 50%;
     padding-top: 1px;
-}   
+}
 
 .checkboxStyle {
     display: inline-block;
@@ -369,6 +371,7 @@ select {
 .first {
     padding-right: 80px;
 }
+
 .question {
     height: 106px;
 }
@@ -377,7 +380,7 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 120px;  
+    margin-bottom: 120px;
     width: 100%;
 }
 
@@ -386,7 +389,7 @@ select {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0px;
-   
+
     padding: 0px;
 }
 
@@ -429,7 +432,7 @@ input.checkboxPosition {
 
 .uniform {
     width: 100%;
-    padding-top: 10px;     
+    padding-top: 10px;
 }
 
 .iHaveUniform {
@@ -447,6 +450,7 @@ input.checkboxPosition {
     display: flex;
     flex-direction: row;
 }
+
 .jersey1 {
     margin-top: -10px;
 }
@@ -485,11 +489,13 @@ p.bold {
     margin-left: 10px;
     margin-top: 20px;
 }
+
 .permissionText {
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 p.permissionText {
     font-size: 12px;
     margin-bottom: -10px;
@@ -504,8 +510,8 @@ input.parent {
 }
 
 .registerinfo {
-background-color: rgba(3, 48, 66, 0.7);
-margin: 40px 180px 60px 180px;
-width: 792px;
-padding: 20px 50px 40px 60px;
+    background-color: rgba(3, 48, 66, 0.7);
+    margin: 40px 180px 60px 180px;
+    width: 792px;
+    padding: 20px 50px 40px 60px;
 }
